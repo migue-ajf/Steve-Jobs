@@ -1,0 +1,72 @@
+body{
+    background-color: lightblue;
+}
+.Steve{
+    text-align: center;
+    color: blue;    
+}
+.Steve::first-letter{
+    font-size: 110px;
+    color: black;
+}
+
+p.vida:hover{
+    background-color: yellow;
+    color: red;
+}
+
+p.proyectos:hover{
+    background-color: yellow;
+    color: red;
+}
+
+p.empresa:hover{
+    background-color: yellow;
+    color: red;
+}
+
+.vida{
+    color: blue;
+    text-align: center;
+}
+.empresa{
+    color: blue;
+    text-align: center;
+}
+.proyectos{
+    color: blue;
+    text-align: center;
+}
+.Info::first-line{
+    color: red;
+}
+p.Info::before{
+    content: counter(info)". ";
+    counter-increment: info 1;
+}
+
+.Apple::first-line{
+    color: red;
+}
+
+p.Apple::before{
+    content: counter(apple)". ";
+    counter-increment: apple 1;
+}
+
+a:link{
+    background-color:white ;
+}
+
+a:visited{
+    background-color:blue ;
+}
+.beta{
+    counter-reset: gracias;
+}
+
+
+p.gracias::before{
+    content: counter(gracias) ". ";
+    counter-increment: gracias ;
+}
